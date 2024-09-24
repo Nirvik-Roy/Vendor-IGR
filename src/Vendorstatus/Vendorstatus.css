@@ -1,0 +1,440 @@
+.vendor-status-section{
+    padding-bottom: 2.8%;
+}
+.vendor-status-wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 20px 0px 40px;
+}
+.vendor-status-content{
+    width: calc(100% - 300px);
+}
+.vendor-status-heading{
+    margin-top: 80px;
+    text-align: center;
+    color: #407BFF;
+    font-family: Poppins;
+    font-size: 30px;
+}
+.vendor-status-table-wrapper{
+    margin-top: 20px;
+}
+.vendor-status-table{
+    display: block;
+    overflow-x: scroll;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    padding: 0px 40px;
+    background-color: white;
+}
+.vendor-status-table-head{
+  padding: 10px 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+}
+.vendor-status-table-head2{
+    padding: 10px 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+  }
+.vendor-status-table-data{
+    padding: 10px 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+}
+.vendor-status-table-data:nth-child(5){
+    text-align: center;
+}
+.vendor-status-table-data:last-child{
+    padding-left: 0;
+}
+.vendor-status-table-data:nth-child(6){
+    text-align: center;
+}
+.vendor-status-table-data:nth-child(7){
+    text-align: center;
+}
+.vendor-status-table-data:nth-child(8){
+    text-align: center;
+}
+.vendor-status-table-data:nth-child(9){
+    padding-left: 30px;
+}
+.vendor-status-table-data:nth-child(10){
+    text-align: center;
+}
+.vendor-status-table-data:nth-child(11){
+   padding-left: 35px;
+}
+.vendor-status-table-data:nth-child(12){
+    text-align: center;
+}
+
+.vendor-status-table-head:nth-child(2){
+    min-width: 100px;
+}
+.vendor-status-table-head:nth-child(3){
+    min-width: 200px;
+}
+.vendor-status-table-head:nth-child(4){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(5){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(6){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(7){
+    min-width: 150px;
+}
+.vendor-status-table-head:nth-child(8){
+    min-width: 200px;
+}
+.vendor-status-table-head:nth-child(9){
+    min-width: 200px;
+}
+.vendor-status-table-head:nth-child(10){
+    min-width: 140px;
+}
+.vendor-status-table-head:nth-child(11){
+    min-width: 140px;
+}
+.vendor-status-table-head:nth-child(12){
+    min-width: 180px;
+}
+.vendor-status-table-head:nth-child(13){
+    min-width: 180px;
+}
+.vendor-status-table-head:nth-child(14){
+    min-width: 200px;
+}
+.vendor-status-table-head:nth-child(15){
+    min-width: 170px;
+}
+.vendor-status-table-head:nth-child(16){
+    min-width: 170px;
+}
+.vendor-status-table-head:nth-child(17){
+    min-width: 210px;
+}
+.vendor-status-table-head:nth-child(18){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(19){
+    min-width: 210px;
+}
+.vendor-status-table-head:nth-child(20){
+    min-width: 140px;
+}
+.vendor-status-table-head:nth-child(21){
+    min-width: 100px;
+}
+.vendor-status-table-head:nth-child(22){
+    min-width: 110px;
+}
+.vendor-status-table-head:nth-child(23){
+    min-width: 110px;
+}
+.vendor-status-table-head:nth-child(24){
+    min-width: 180px;
+}
+.vendor-status-table-head:nth-child(25){
+    min-width: 180px;
+}
+.vendor-status-table-head:nth-child(26){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(27){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(28){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(29){
+    min-width: 150px;
+}
+.vendor-status-table-head:nth-child(30){
+    min-width: 260px;
+}
+.vendor-status-table-head:nth-child(31){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(32){
+    min-width: 100px;
+}
+.vendor-status-table-head:nth-child(33){
+    min-width: 100px;
+}
+.vendor-status-table-head:nth-child(34){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(35){
+    min-width: 140px;
+}
+.vendor-status-table-head:nth-child(36){
+    min-width: 140px;
+}
+.vendor-status-table-head:nth-child(37){
+    min-width: 140px;
+}
+.vendor-status-table-head:nth-child(38){
+    min-width: 150px;
+}
+.vendor-status-table-head:nth-child(39){
+    min-width: 150px;
+}
+.vendor-status-table-head:nth-child(40){
+    min-width: 150px;
+}
+.vendor-status-table-head:nth-child(41){
+    min-width: 150px;
+}
+.vendor-status-table-head:nth-child(42){
+    min-width: 150px;
+}
+.vendor-status-table-head:nth-child(43){
+    min-width: 180px;
+}
+.vendor-status-table-head:nth-child(44){
+    min-width: 140px;
+}
+.vendor-status-table-head:nth-child(45){
+    min-width: 140px;
+}
+.vendor-status-table-head:nth-child(46){
+    min-width: 150px;
+}
+.vendor-status-table-head:nth-child(47){
+    min-width: 150px;
+}
+.vendor-status-table-head:nth-child(48){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(49){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(50){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(51){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(52){
+    min-width: 80px;
+}
+.vendor-status-table-head:nth-child(53){
+    min-width: 100px;
+}
+.vendor-status-table-head:nth-child(54){
+    min-width: 100px;
+}
+
+
+
+
+
+
+.vendor-status-table-head2:nth-child(2){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(3){
+    min-width: 200px;
+}
+.vendor-status-table-head2:nth-child(4){
+    min-width: 80px;
+}
+.vendor-status-table-head2:nth-child(5){
+    min-width: 80px;
+}
+.vendor-status-table-head2:nth-child(6){
+    min-width: 80px;
+}
+.vendor-status-table-head2:nth-child(7){
+    min-width: 150px;
+}
+.vendor-status-table-head2:nth-child(8){
+    min-width: 200px;
+}
+.vendor-status-table-head2:nth-child(9){
+    min-width: 200px;
+}
+.vendor-status-table-head2:nth-child(10){
+    min-width: 140px;
+}
+.vendor-status-table-head2:nth-child(11){
+    min-width: 140px;
+}
+.vendor-status-table-head2:nth-child(12){
+    min-width: 180px;
+}
+.vendor-status-table-head2:nth-child(13){
+    min-width: 180px;
+}
+.vendor-status-table-head2:nth-child(14){
+    min-width: 200px;
+}
+.vendor-status-table-head2:nth-child(15){
+    min-width: 170px;
+}
+.vendor-status-table-head2:nth-child(16){
+    min-width: 170px;
+}
+.vendor-status-table-head2:nth-child(17){
+    min-width: 210px;
+}
+.vendor-status-table-head2:nth-child(18){
+    min-width: 80px;
+}
+.vendor-status-table-head2:nth-child(19){
+    min-width: 210px;
+}
+.vendor-status-table-head2:nth-child(20){
+    min-width: 140px;
+}
+.vendor-status-table-head2:nth-child(21){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(22){
+    min-width: 110px;
+}
+.vendor-status-table-head2:nth-child(23){
+    min-width: 110px;
+}
+.vendor-status-table-head2:nth-child(24){
+    min-width: 180px;
+}
+.vendor-status-table-head2:nth-child(25){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(26){
+    min-width: 80px;
+}
+.vendor-status-table-head2:nth-child(27){
+    min-width: 80px;
+}
+.vendor-status-table-head2:nth-child(28){
+    min-width: 260px;
+}
+.vendor-status-table-head2:nth-child(29){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(30){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(31){
+    min-width: 80px;
+}
+.vendor-status-table-head2:nth-child(32){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(33){
+    min-width: 130px;
+}
+.vendor-status-table-head2:nth-child(34){
+    min-width: 130px;
+}
+.vendor-status-table-head2:nth-child(35){
+    min-width: 120px;
+}
+.vendor-status-table-head2:nth-child(36){
+    min-width: 140px;
+}
+.vendor-status-table-head2:nth-child(37){
+    min-width: 160px;
+}
+.vendor-status-table-head2:nth-child(38){
+    min-width: 150px;
+}
+.vendor-status-table-head2:nth-child(39){
+    min-width: 150px;
+}
+.vendor-status-table-head2:nth-child(40){
+    min-width: 150px;
+}
+.vendor-status-table-head2:nth-child(41){
+    min-width: 150px;
+}
+.vendor-status-table-head2:nth-child(42){
+    min-width: 110px;
+}
+.vendor-status-table-head2:nth-child(43){
+    min-width: 110px;
+}
+.vendor-status-table-head2:nth-child(44){
+    min-width: 140px;
+}
+.vendor-status-table-head2:nth-child(45){
+    min-width: 140px;
+}
+.vendor-status-table-head2:nth-child(46){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(47){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(48){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(49){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(50){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(51){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(52){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(53){
+    min-width: 100px;
+}
+.vendor-status-table-head2:nth-child(54){
+    min-width: 100px;
+}
+
+.image-div{
+    width: 100%;
+    max-width: 200px;
+    min-width: 200px;
+    height: 80px;
+}
+.image-div img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* Responsive design */
+
+@media screen and (max-width: 991px) {
+    .vendor-status-content{
+        width: calc(100% - 260px);
+        
+        
+    }
+}
+@media screen and (max-width: 767px) {
+    .vendor-status-content{
+        width: calc(100% - 0px);
+        
+        
+    }
+    .vendor-status-wrapper{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 0px 20px 0px 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+  .vendor-status-heading{
+    font-size: 22px;
+  }
+}
+    

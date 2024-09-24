@@ -1,0 +1,173 @@
+import React from 'react'
+import './Vendortable.css'
+import edit from '../Images/edit 1.png'
+import trash from '../Images/trash-2 1.png'
+import dalil from '../Images/dalil.png'
+const Vendortable = () => {
+  return (
+    <>
+      <section className='vendor-table-section'>
+        <div className='vendor-details-wrapper'>
+            <div className='vendor-table-content'>
+                <div>
+                    <h2 className='vendor-details-head'>Vendor Details</h2>
+                    <div className='vendor-table-wrapper'>
+                        <table className='vendor-table-main'>
+                            <thead>
+                                <tr>
+                                    <th className='vendor-table-head'>No</th>
+                                    <th className='vendor-table-head'>Project</th>
+                                    <th className='vendor-table-head'>Batch</th>
+                                    <th className='vendor-table-head'>Deed</th>
+                                    <th className='vendor-table-head'>Person</th>
+                                    <th className='vendor-table-head'>Qc Operator</th>
+                                    <th className='vendor-table-head'>Images</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td className='vendor-table-data'>1</td>
+                                    <td className='vendor-table-data'>IGR</td>
+                                    <td className='vendor-table-data'>305456</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>Lorem Ipsum</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>
+                                        <div className='vendor-image'>
+                                             <img src={dalil} alt='Dalil' />
+                                        </div>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={edit}></img>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={trash}></img>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className='vendor-table-data'>1</td>
+                                    <td className='vendor-table-data'>IGR</td>
+                                    <td className='vendor-table-data'>305456</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>Lorem Ipsum</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>
+                                        <div className='vendor-image'>
+                                             <img src={dalil} alt='Dalil' />
+                                        </div>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={edit}></img>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={trash}></img>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className='vendor-table-data'>1</td>
+                                    <td className='vendor-table-data'>IGR</td>
+                                    <td className='vendor-table-data'>305456</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>Lorem Ipsum</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>
+                                        <div className='vendor-image'>
+                                             <img src={dalil} alt='Dalil' />
+                                        </div>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={edit}></img>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={trash}></img>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className='vendor-table-data'>1</td>
+                                    <td className='vendor-table-data'>IGR</td>
+                                    <td className='vendor-table-data'>305456</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>Lorem Ipsum</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>
+                                        <div className='vendor-image'>
+                                             <img src={dalil} alt='Dalil' />
+                                        </div>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={edit}></img>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={trash}></img>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className='vendor-table-data'>1</td>
+                                    <td className='vendor-table-data'>IGR</td>
+                                    <td className='vendor-table-data'>305456</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>Lorem Ipsum</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>
+                                        <div className='vendor-image'>
+                                             <img src={dalil} alt='Dalil' />
+                                        </div>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={edit}></img>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={trash}></img>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className='vendor-table-data'>1</td>
+                                    <td className='vendor-table-data'>IGR</td>
+                                    <td className='vendor-table-data'>305456</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>Lorem Ipsum</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>
+                                        <div className='vendor-image'>
+                                             <img src={dalil} alt='Dalil' />
+                                        </div>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={edit}></img>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={trash}></img>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className='vendor-table-data'>1</td>
+                                    <td className='vendor-table-data'>IGR</td>
+                                    <td className='vendor-table-data'>305456</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>Lorem Ipsum</td>
+                                    <td className='vendor-table-data'>678</td>
+                                    <td className='vendor-table-data'>
+                                        <div className='vendor-image'>
+                                             <img src={dalil} alt='Dalil' />
+                                        </div>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={edit}></img>
+                                    </td>
+                                    <td className='vendor-table-data'>
+                                        <img src={trash}></img>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default Vendortable

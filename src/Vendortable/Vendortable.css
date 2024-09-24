@@ -1,0 +1,108 @@
+.vendor-table-section{
+    padding-bottom: 2.8%;
+}
+.vendor-details-wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 20px 0px 40px;
+}
+.vendor-table-content{
+    width: calc(100% - 300px);
+}
+.vendor-details-head{
+    margin-top: 80px;
+    text-align: center;
+    color: #407BFF;
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+.vendor-table-wrapper{
+    margin-top: 20px;
+}
+.vendor-table-main{
+    display: block;
+    overflow-x: scroll;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    padding: 0px 40px;
+    background-color: white;
+}
+.vendor-image{
+    width: 100%;
+    max-width: 200px;
+    min-width: 200px;
+    height: 80px;
+}
+.vendor-image img{
+    width: 100%;
+    height: 100%;
+    
+}
+.vendor-table-head{
+
+    padding: 10px 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+}
+.vendor-table-head:nth-child(1){
+    min-width: 80px;
+}
+.vendor-table-head:nth-child(2){
+    min-width: 100px;
+}
+.vendor-table-data:nth-child(2){
+    padding: 0px 30px;
+}
+.vendor-table-data:nth-child(4){
+    padding: 0px 30px;
+}
+.vendor-table-head:nth-child(3){
+    min-width: 100px;
+}
+.vendor-table-head:nth-child(4){
+    min-width: 100px;
+}
+.vendor-table-head:nth-child(5){
+    min-width: 135px;
+}
+.vendor-table-head:nth-child(6){
+    min-width: 135px;
+}
+.vendor-table-data:nth-child(6){
+    text-align: center;
+    
+}
+.vendor-table-data:nth-child(7){
+    padding: 0px;
+    padding-top: 5px;
+}
+.vendor-table-data:nth-child(9){
+    padding: 0px;
+}
+.vendor-table-data{
+    padding: 10px 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+}
+@media screen and (max-width: 991px) {
+    .vendor-table-content{
+        width: calc(100% - 260px);
+    }
+}
+@media screen and (max-width: 767px) {
+    .vendor-table-content{
+        width: calc(100% - 0px);
+    }
+    .vendor-details-wrapper{
+        padding: 0px 20px 0px 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .vendor-details-head{
+      font-size: 22px;
+    }
+  }
