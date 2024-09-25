@@ -9,7 +9,12 @@
 }
 .qc-table-content{
     width: calc(100% - 300px);
+    transition: 0.3s linear all;
   
+}
+.qc-table-content2{
+    width: calc(100% - 20px);
+    transition: 0.3s linear all;
 }
 .qc-heading{
     margin-top: 50px;
@@ -28,6 +33,16 @@
     border-spacing: 20px;
     padding: 0px 40px;
     background-color: white;
+    transition: 0.3s all linear;
+}
+.qc-table2{
+    display: block;
+    overflow-x: scroll;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    padding: 0px 100px;
+    background-color: white;
+    transition: 0.3s all linear;
 }
 .qc-table-head{
     padding: 10px 40px;
@@ -37,16 +52,17 @@
     border-bottom: 1px solid rgba(128, 128, 128, 0.203);
 }
 .qc-table-head:nth-child(1){
-    min-width: 80px;
+    min-width: 100px;
 }
 .qc-table-head:nth-child(2){
-    min-width: 120px;
+    padding-left: 30px;
+    min-width: 180px;
 }
 .qc-table-head:nth-child(3){
-    min-width: 120px;
+    min-width: 180px;
 }
 .qc-table-head:nth-child(4){
-    min-width: 210px;
+    min-width: 250px;
 }
 .qc-table-head:nth-child(5){
     min-width: 180px;
@@ -57,6 +73,10 @@
     font-family: Poppins;
     font-size: 14px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+    white-space: normal;
+    vertical-align: top;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 @media screen and (max-width: 991px) {
     .qc-table-content{

@@ -1,0 +1,133 @@
+.assignmenttable-section{
+    padding-bottom: 2.8%
+}
+.assignmenttable-wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 0px 20px 0px 40px;
+}
+.assignmenttable-content{
+    width: calc(100% - 300px);
+    transition: 0.3s linear all;
+}
+.assignmenttable-content2{
+    width: calc(100% - 20px);
+    transition: 0.3s linear all;
+}
+.assignmenttable-heading{
+    margin-top: 90px;
+    font-family: Poppins;
+    font-size: 25px;
+    color: #407BFF;
+    text-align: center;
+}
+.assignmenttable{
+    overflow-x: scroll;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    padding: 0px 40px;
+    background-color: white;
+    display: block;
+    transition: 0.3s linear all;
+}
+.assignmenttable2{
+    overflow-x: scroll;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    padding: 0px 150px;
+    background-color: white;
+    display: block;
+   transition: 0.3s linear all;
+}
+.assignmenttable-head:nth-child(1){
+    min-width: 100px;
+}
+.assignmenttable-head:nth-child(2){
+    min-width: 180px;
+}
+.assignmenttable-head:nth-child(3){
+    padding-left: 55px;
+    min-width: 180px;
+}
+.assignmenttable-head:nth-child(4){
+    padding-left: 65px;
+    min-width: 250px;
+}
+.assignmenttable-head:nth-child(5){
+    padding-left: 55px;
+    min-width: 80px;
+}
+.assignmenttable-head:nth-child(6){
+    min-width: 80px;
+}
+.assignmenttable-head{
+    padding: 10px 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+}
+
+
+.assignmenttable-data{
+    padding: 10px 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+    white-space: normal;
+    vertical-align: top;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.assignmenttable-data:nth-child(6){
+    padding-left: 60px;
+}
+.assignmenttable-data:nth-child(5){
+    padding-left: 60px;
+}
+.assignmenttable-data:nth-child(5){
+    padding-left: 60px;
+}
+.assignmenttable-data:nth-child(1){
+    padding-left: 55px;
+}
+.assignmenttable-main{
+    margin-top: 30px;
+    display: block;
+    
+    
+}
+
+@media only screen and (max-width: 991px){
+    .assignmenttable-content{
+        width: calc(100% - 260px);
+    }
+}
+@media only screen and (max-width: 767px){
+    .assignmenttable-content{
+        width: calc(100% - 0px);
+    }
+    .assignmenttable-wrapper{
+     
+        padding: 0px 20px 0px 20px;
+    }
+    .assignmenttable-heading{
+       
+        font-size: 22px;
+       
+    }
+    .assignmenttable-main{
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (max-width: 480px){
+    .assignmenttable-heading{
+       
+        font-size: 18px;
+       
+    }
+    .assignmenttable-main{
+        margin-top: 20px;
+    }
+}

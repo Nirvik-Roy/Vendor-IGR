@@ -1,0 +1,175 @@
+.vendor-assignment-section{
+    padding-bottom: 2.8%;
+}
+.vendor-assignment-wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 0px 20px 0px 40px;
+}
+.vendor-assignment-content{
+ width: calc(100% - 300px);
+  transition: all linear 0.3s;
+}
+.vendor-assignment-content2{
+    width: calc(100% - 20px);
+    transition: all linear 0.3s;
+   }
+.vendor-assignment-head{
+    margin-top: 90px;
+    font-family: Poppins;
+    font-size: 25px;
+    color: #407BFF
+}
+.assignment-field{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+    width: 100%;
+    max-width: 35%;
+    min-width: 35%;
+    margin-top: 30px;
+}
+.label{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+color: #4C5056;
+width: 100%;
+max-width: 20%;
+min-width: 20%;
+}
+.assignment-input-div{
+    width: 100%;
+    max-width: 70%;
+    min-width: 70%;
+}
+.assignment-input{
+    border: 1px solid #676767;
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 8px;
+    padding: 0px 10px;
+}
+.submit-btn2{
+    background-color: #407BFF;
+    color: white;
+    border: none;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    width: 140px;
+    height: 45px;
+    border-radius: 7px;
+}
+.button-div2{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 40%;
+    min-width: 40%;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 1199px){
+    .assignment-field{
+  
+        width: 100%;
+        max-width: 50%;
+        min-width: 50%;
+
+    }
+    .button-div2{
+      
+        width: 100%;
+        max-width: 60%;
+        min-width: 60%;
+      
+    }
+}
+@media only screen and (max-width: 991px){
+    .vendor-assignment-content{
+        width: calc(100% - 260px);
+       
+       }
+       .assignment-field{
+  
+        width: 100%;
+        max-width: 65%;
+        min-width: 65%;
+
+    }
+    .button-div2{
+      
+        width: 100%;
+        max-width: 75%;
+        min-width: 75%;
+      
+    }
+}
+@media only screen and (max-width: 767px){
+    .vendor-assignment-content{
+        width: calc(100% - 0px);
+       
+       }
+       .assignment-field{
+  
+        width: 100%;
+        max-width: 55%;
+        min-width: 55%;
+
+    }
+    .vendor-assignment-wrapper{
+
+        padding: 0px 20px 0px 20px;
+    }
+    .button-div2{
+      
+        width: 100%;
+        max-width: 65%;
+        min-width: 65%;
+      
+    }
+}
+@media only screen and (max-width: 576px){
+    .assignment-field{
+  
+        width: 100%;
+        max-width: 75%;
+        min-width: 75%;
+
+    }
+    .button-div2{
+      
+        width: 100%;
+        max-width: 85%;
+        min-width: 85%;
+      
+    }
+}
+@media only screen and (max-width: 480px){
+    .assignment-field{
+        width: 100%;
+        max-width: 90%;
+        min-width: 90%;
+
+    }
+    .button-div2{
+      
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+      
+    }
+}
+@media only screen and (max-width: 420px){
+    .assignment-field{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+
+    }
+}

@@ -26,6 +26,15 @@ ul{
 figure{
   margin: 0;
 }
+.fa-caret-left{
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
 .sidebar-menu::-webkit-scrollbar{
   display: none;
 }
@@ -35,14 +44,25 @@ figure{
 }
 .sidebar-menu{
  background-image: linear-gradient(to right, rgba(64, 123, 255, 0.8),rgba(64, 123, 255, 0.8)  ),url(./Images/image.png);
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 300px;
   position: fixed;
   height: 100%;
   background-repeat: no-repeat;
   background-position:top left;
   overflow-y: auto;
   z-index: 9;
+  transition: all linear 0.3s;
+  
+
 }
+
+.translate{
+  transform: translateX(-94%);
+  transition: all linear 0.3s;
+}
+
 .sidebar-logo{
   width: 153.44px;
 height: 41.91px;
@@ -64,6 +84,7 @@ height: 22.09px;
 .sidebar-logo-wrapper{
   border-bottom: 1px solid white;
   padding-bottom: 15px;
+  position: relative;
 }
 .sidebar-logo{
   margin-top: 35px;
@@ -105,12 +126,19 @@ cursor: pointer;
 .header-wrapper{
   width: calc(100% - 300px);
   padding: 20px 40px ;
+  transition: all linear 0.3s;
+}
+.header-wrapper3{
+  width: calc(100% - 20px);
+  padding: 20px 40px ;
+  transition: all linear 0.3s;
 }
 .header-wrapper2{
   width: 100% ;
   max-width: 100%;
   min-width: 100%;
   padding: 20px 40px ;
+  transition: all linear 0.3s;
 }
 .header-para{
   font-size: 20px;

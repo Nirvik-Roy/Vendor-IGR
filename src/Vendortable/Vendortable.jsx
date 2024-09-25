@@ -3,12 +3,16 @@ import './Vendortable.css'
 import edit from '../Images/edit 1.png'
 import trash from '../Images/trash-2 1.png'
 import dalil from '../Images/dalil.png'
+import { useSelector } from 'react-redux'
 const Vendortable = () => {
+    const data = useSelector ((state)=>{
+        return state.sidebar.isOpen
+       })
   return (
     <>
       <section className='vendor-table-section'>
         <div className='vendor-details-wrapper'>
-            <div className='vendor-table-content'>
+            <div className={data==true ? 'vendor-table-content2' : 'vendor-table-content' }>
                 <div>
                     <h2 className='vendor-details-head'>Vendor Details</h2>
                     <div className='vendor-table-wrapper'>

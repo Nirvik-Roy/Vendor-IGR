@@ -13,6 +13,11 @@
 .dashboard-content{
    
     width: calc(100% - 300px);
+    transition: all linear 0.3s;
+}
+.dashboard-content2{
+    transition: all linear 0.3s;
+    width: calc(100% - 20px);
 }
 .dashboard-heading{
     margin-top: 80px;

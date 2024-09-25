@@ -2,12 +2,15 @@ import React, { useRef, useState } from 'react'
 import './Ticket.css'
 import dalil from '../Images/dalil.png'
 import down from '../Images/down.png'
+import { useSelector } from 'react-redux'
 const Ticket = () => {
     const [toggle,setoggle]=useState(true)
     const [dropdown,setdropdown]=useState(false)
     const [images,setimages]=useState([])
     const inputref=useRef()
-
+    const data = useSelector ((state)=>{
+      return state.sidebar.isOpen
+     })
     const getimages = (event) =>{
         event.preventDefault()
         const file=event.target.files
@@ -21,7 +24,7 @@ const Ticket = () => {
     <>
       <section className='ticket-section'>
         <div className='ticket-wrapper'>
-            <div className='ticket-content'>
+            <div className={data == true ? 'ticket-content2' : 'ticket-content' }>
                 <div className='ticket-tabs'>
                     <button className={toggle==1 ? 'ticket-btn background':'ticket-btn'} onClick={(()=>setoggle(1))}>Create Ticket</button>
                     <button className={toggle==2 ? 'ticket-btn background':'ticket-btn'} onClick={(()=>setoggle(2))}>Running</button>

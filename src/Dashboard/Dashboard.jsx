@@ -1,13 +1,17 @@
 import React from 'react'
 import './Dashboard.css'
 import { useNavigate } from 'react-router-dom'
+import { useSelector } from 'react-redux'
 const Dashboard = () => {
     const navigate =useNavigate()
+    const data = useSelector ((state)=>{
+        return state.sidebar.isOpen
+       })
   return (
     <>
       <section className='dashboard-section'>
         <div className='dashboard-wrapper'>
-            <div className='dashboard-content'>
+            <div className={data==true ? 'dashboard-content2': 'dashboard-content' }>
                 <div className='dashboard-head-div'>
                     <h1 className='dashboard-heading'>Dashboard</h1>
                 </div>

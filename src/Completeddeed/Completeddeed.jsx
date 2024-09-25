@@ -3,13 +3,16 @@ import '../Vendorstatus/Vendorstatus.css'
 import edit from '../Images/edit 1.png'
 import trash from '../Images/trash-2 1.png'
 import dalil from '../Images/dalil.png'
+import { useSelector } from 'react-redux'
 const Completeddeed = () => {
-    
+    const data = useSelector ((state)=>{
+        return state.sidebar.isOpen
+       })
   return (
     <>
             <section className='vendor-status-section'>
         <div className='vendor-status-wrapper'>
-            <div className='vendor-status-content'>
+            <div className={data==true ? 'vendor-status-content2' : 'vendor-status-content' }>
                 <div>
                     <h1 className='vendor-status-heading'>Deed Status</h1>
                 </div>

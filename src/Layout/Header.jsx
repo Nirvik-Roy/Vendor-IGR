@@ -2,14 +2,17 @@ import React, { useEffect, useState } from 'react'
 import Sidebar from './Sidebar'
 import loginlogo from '../Images/Ellipse 5.png'
 import dropdownlogo from '../Images/Vector (2).png'
+import { useSelector } from 'react-redux'
 const Header = () => {
   const [dropdown,setdropdown]=useState(false)
-  
+  const data = useSelector ((state)=>{
+    return state.sidebar.isOpen
+   })
   return (
     <>
     <Sidebar/>
       <div className='header-main'>
-        <div className='header-wrapper'>
+        <div className= {data==true ?'header-wrapper3' : 'header-wrapper' }>
             <div className='header-divs d-flex justify-content-between '>
             <div className='header-checkbox-div'>
               

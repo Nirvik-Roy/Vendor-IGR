@@ -9,6 +9,11 @@
 }
 .ticket-content{
     width: calc(100% - 300px);
+    transition: all linear 0.3s;
+}
+.ticket-content2{
+    width: calc(100% - 20px);
+    transition: all linear 0.3s;
 }
 .ticket-tabs{
     margin-top: 90px;

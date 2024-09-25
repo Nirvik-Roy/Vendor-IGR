@@ -7,6 +7,8 @@ import Completeddeed from './Completeddeed/Completeddeed';
 import Ticket from './Ticket/Ticket';
 import Vendortable from './Vendortable/Vendortable';
 import Qctable from './Qctable/Qctable';
+import Vendorassignment from './Vendorassignment/Vendorassignment';
+import Assignmenttable from './Assignmenttable/Assignmenttable';
 function App() {
   return (
    <>
@@ -19,6 +21,8 @@ function App() {
         <Route path='/ticket' element={<Ticket/>}></Route>
         <Route path='/vendordetails' element={<Vendortable/>}></Route>
         <Route path='/qctable' element={<Qctable/>}></Route>
+        <Route path='/vendorassignment' element={<Vendorassignment/>}></Route>
+        <Route path='/assignmenttable' element={<Assignmenttable/>}></Route>
       </Route>
     </Routes>
    </BrowserRouter>
