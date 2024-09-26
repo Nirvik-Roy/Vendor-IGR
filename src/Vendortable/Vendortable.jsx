@@ -42,12 +42,7 @@ const Vendortable = () => {
                                              <img src={dalil} alt='Dalil' />
                                         </div>
                                     </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={edit}></img>
-                                    </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={trash}></img>
-                                    </td>
+                                    
                                 </tr>
                                 <tr>
                                     <td className='vendor-table-data'>1</td>
@@ -61,12 +56,7 @@ const Vendortable = () => {
                                              <img src={dalil} alt='Dalil' />
                                         </div>
                                     </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={edit}></img>
-                                    </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={trash}></img>
-                                    </td>
+                                  
                                 </tr>
                                 <tr>
                                     <td className='vendor-table-data'>1</td>
@@ -80,12 +70,7 @@ const Vendortable = () => {
                                              <img src={dalil} alt='Dalil' />
                                         </div>
                                     </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={edit}></img>
-                                    </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={trash}></img>
-                                    </td>
+                                    
                                 </tr>
                                 <tr>
                                     <td className='vendor-table-data'>1</td>
@@ -99,12 +84,7 @@ const Vendortable = () => {
                                              <img src={dalil} alt='Dalil' />
                                         </div>
                                     </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={edit}></img>
-                                    </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={trash}></img>
-                                    </td>
+                                    
                                 </tr>
                                 <tr>
                                     <td className='vendor-table-data'>1</td>
@@ -118,12 +98,7 @@ const Vendortable = () => {
                                              <img src={dalil} alt='Dalil' />
                                         </div>
                                     </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={edit}></img>
-                                    </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={trash}></img>
-                                    </td>
+                                    
                                 </tr>
                                 <tr>
                                     <td className='vendor-table-data'>1</td>
@@ -137,12 +112,7 @@ const Vendortable = () => {
                                              <img src={dalil} alt='Dalil' />
                                         </div>
                                     </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={edit}></img>
-                                    </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={trash}></img>
-                                    </td>
+                                    
                                 </tr>
                                 <tr>
                                     <td className='vendor-table-data'>1</td>
@@ -156,12 +126,7 @@ const Vendortable = () => {
                                              <img src={dalil} alt='Dalil' />
                                         </div>
                                     </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={edit}></img>
-                                    </td>
-                                    <td className='vendor-table-data'>
-                                        <img src={trash}></img>
-                                    </td>
+                                    
                                 </tr>
                             </tbody>
                         </table>

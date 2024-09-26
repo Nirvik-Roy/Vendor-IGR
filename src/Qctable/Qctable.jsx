@@ -32,12 +32,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -45,12 +40,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -58,12 +48,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -71,12 +56,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -84,12 +64,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -97,12 +72,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -110,12 +80,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -123,12 +88,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -136,12 +96,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -149,12 +104,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -162,12 +112,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                         <tr>
                             <td className='qc-table-data'>1</td>
@@ -175,12 +120,7 @@ const Qctable = () => {
                             <td className='qc-table-data'>304565</td>
                             <td className='qc-table-data'>ABC Construction</td>
                             <td className='qc-table-data'>Deed 1234</td>
-                            <td className='qc-table-data'>
-                                <img src={edit}></img>
-                            </td>
-                            <td className='qc-table-data'>
-                                <img src={trash}></img>
-                            </td>
+                           
                         </tr>
                     </tbody>
                 </table>
