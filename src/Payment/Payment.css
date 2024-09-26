@@ -1,0 +1,81 @@
+.payment-section{
+    padding-bottom: 2.8%;
+}
+.payment-wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 20px 0px 40px;
+}
+
+.payment-content{
+    width: calc(100% - 300px);
+    transition: 0.3s linear all;
+}
+
+.payment-content2{
+    width: calc(100% - 20px);
+    transition: 0.3s linear all;
+}
+.payment-head{
+    margin-top: 80px;
+    text-align: center;
+    color: #407BFF;
+    font-family: Poppins;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.payment-table{
+    overflow-x: scroll;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    padding: 0px 40px;
+    background-color: white;
+    display: block;
+    transition: 0.3s linear all;
+}
+.payment-table-head{
+    padding: 10px 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+}
+.payment-table-head:nth-child(1){
+    min-width: 200px;
+}
+.payment-table-head:nth-child(2){
+    min-width: 200px;
+}
+.payment-table-head:nth-child(3){
+    min-width: 200px;
+}
+.payment-table-head:nth-child(4){
+    min-width: 200px;
+}
+.payment-table-head:nth-child(5){
+    min-width: 250px;
+}
+.payment-table-head:nth-child(6){
+    min-width: 200px;
+}
+.payment-table-data:nth-child(3){
+    padding-left: 60px;
+}
+.payment-table-data:nth-child(5){
+    text-align: center;
+    padding-left: 40px;
+}
+.payment-table-data:nth-child(6){
+    text-align: center;
+    padding-left: 20px;
+}
+.payment-table-data{
+    padding: 10px 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+    white-space: normal;
+    vertical-align: top;
+    word-wrap: break-word;
+    word-break: break-all;
+}

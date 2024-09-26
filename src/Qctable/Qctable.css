@@ -78,6 +78,18 @@
     word-wrap: break-word;
     word-break: break-all;
 }
+
+@media screen and (max-width: 1199px) {
+    .qc-table2{
+        display: block;
+        overflow-x: scroll;
+        border-collapse: collapse;
+        border-spacing: 20px;
+        padding: 0px 60px;
+        background-color: white;
+        transition: 0.3s all linear;
+    }
+}
 @media screen and (max-width: 991px) {
     .qc-table-content{
         width: calc(100% - 260px);
@@ -94,6 +106,15 @@
         justify-content: end;
         align-items: center;
         padding: 0px 20px 0px 20px;
+    }
+    .qc-table2{
+        display: block;
+        overflow-x: scroll;
+        border-collapse: collapse;
+        border-spacing: 20px;
+        padding: 0px 40px;
+        background-color: white;
+        transition: 0.3s all linear;
     }
 }
 @media screen and (max-width: 480px) {

@@ -19,7 +19,7 @@ const Sidebar = () => {
     <>
     <section className='sidebar-section'>
       <div className='sidebar-main' >
-        <div className={ data==true ?  'sidebar-menu translate' : 'sidebar-menu' }>
+        <div className={ data==true ?  'sidebar-menu2' : 'sidebar-menu' }>
         <div className='sidebar-cross-main'>
         <div className='d-flex justify-content-end'>
         <div className=' sidebar-cross-div '>
@@ -49,6 +49,15 @@ const Sidebar = () => {
             <div className='sidebar-icons-wrapper'>
                 <img className='sidebar-menus-icon' src={sidebarmenulogo}></img>
                 <p className='d-inline-block poppins-regular home-menu' onClick={(()=>navigate('/vendorassignment'))} >Assignment</p>
+            </div>
+
+            <div className='sidebar-icons-wrapper'>
+                <img className='sidebar-menus-icon' src={sidebarmenulogo}></img>
+                <p className='d-inline-block poppins-regular home-menu' onClick={(()=>navigate('/invoicerequest'))}>Invoice Requested</p>
+            </div>
+            <div className='sidebar-icons-wrapper'>
+                <img className='sidebar-menus-icon' src={sidebarmenulogo}></img>
+                <p className='d-inline-block poppins-regular home-menu' onClick={(()=>navigate('/payment'))}>Payment Complete</p>
             </div>
          
            </div>

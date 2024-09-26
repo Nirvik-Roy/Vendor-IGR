@@ -9,6 +9,8 @@ import Vendortable from './Vendortable/Vendortable';
 import Qctable from './Qctable/Qctable';
 import Vendorassignment from './Vendorassignment/Vendorassignment';
 import Assignmenttable from './Assignmenttable/Assignmenttable';
+import Invoicerequest from './Invoicerequest/Invoicerequest';
+import Payment from './Payment/Payment';
 function App() {
   return (
    <>
@@ -23,6 +25,8 @@ function App() {
         <Route path='/qctable' element={<Qctable/>}></Route>
         <Route path='/vendorassignment' element={<Vendorassignment/>}></Route>
         <Route path='/assignmenttable' element={<Assignmenttable/>}></Route>
+        <Route path='/invoicerequest' element={<Invoicerequest/>}></Route>
+        <Route path='/payment' element={<Payment/>}></Route>
       </Route>
     </Routes>
    </BrowserRouter>

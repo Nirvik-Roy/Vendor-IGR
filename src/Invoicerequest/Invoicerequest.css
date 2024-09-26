@@ -1,0 +1,213 @@
+.invoice-request-section{
+    padding-bottom: 2.8%;
+}
+
+.invoice-request-wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 20px 0px 40px;
+}
+
+.invoice-request-content{
+    width: calc(100% - 300px);
+    transition: all linear 0.3s;
+    
+}
+
+.invoice-request-content2{
+    width: calc(100% - 20px);
+    transition: all linear 0.3s;
+}
+.invoice-request-head{
+    margin-top: 80px;
+    text-align: center;
+    color: #407BFF;
+    font-family: Poppins;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.invoice-table{
+    overflow-x: scroll;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    padding: 0px 40px;
+    background-color: white;
+    display: block;
+    transition: 0.3s linear all;
+    
+}
+.invoice-table2{
+    overflow-x: scroll;
+    border-collapse: collapse;
+    border-spacing: 20px;
+    padding: 0px 120px;
+    background-color: white;
+    display: block;
+    transition: 0.3s linear all;
+    
+}
+.invoice-table-head{
+    padding: 10px 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+}
+.invoice-table-data{
+    padding: 10px 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.203);
+    white-space: normal;
+    vertical-align: top;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.invoice-table-head:nth-child(1){
+    min-width: 200px;
+}
+.invoice-table-head:nth-child(2){
+    min-width: 200px;
+}
+.invoice-table-data:nth-child(2){
+    padding-left: 60px;
+}
+.invoice-table-data:nth-child(4){
+    padding-left: 75px;
+}
+.invoice-table-head:nth-child(3){
+    min-width: 200px;
+}
+.invoice-table-head:nth-child(4){
+    min-width: 200px;
+}
+.accept-btn{
+    background-color: rgb(49, 183, 49);
+    color: white;
+    width: 80px;
+    height: 35px;
+    font-family: Poppins;
+    font-size: 14px;
+    border: none;
+}
+.accept-btn:hover{
+    color: white;
+}
+.reject-btn{
+    background-color: rgb(220, 64, 64);
+    color: white;
+    width: 80px;
+    height: 35px;
+    font-family: Poppins;
+    font-size: 14px;
+    border: none;
+    margin-left: 20px;
+}
+.reject-btn:hover{
+    color: white;
+}
+.modal-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999999999;
+}
+.modal-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 45%;
+    min-width: 45%;
+    height: 350px;
+    background-color: rgb(215, 226, 235);
+    z-index: 99999999999;
+    transform: translate(-50%,-50%);
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    animation: modal 0.5s ease-in-out  1  ;
+    border-radius: 10px;
+}
+
+@keyframes modal {
+    0%{
+        transform: translate(-50%,-100%);
+    }100%{
+        transform: translate(-50%,-50%);
+    }
+}
+.modal-head{
+    height: 45px;
+    background-color: #407BFF;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 10px 10px 0px 0px ;
+}
+.modal-cross{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.modal-form-field{
+    width: 100%;
+    max-width: 70%;
+    min-width: 70%;
+   
+}
+.modal-input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modal-input-para{
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 18px;
+    color: rgb(93, 93, 93);
+}
+.modal-input-div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: 10px;
+}
+.modal-input{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.modal-submit-btn{
+    width: 100%;
+    max-width: 140px;
+    min-width: 140px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 18px;
+    border: 1.9px solid  #407BFF; 
+    color: #407BFF;
+    background-color: transparent;
+    border-radius: 7px;
+    transition: 0.3s linear all;
+}
+.modal-submit-btn:hover{
+    background-color:#407BFF;
+    color: white;
+    border: none;
+}

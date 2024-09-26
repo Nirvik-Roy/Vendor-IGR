@@ -98,6 +98,18 @@
     
 }
 
+@media only screen and (max-width: 1199px){
+    .assignmenttable2{
+        overflow-x: scroll;
+        border-collapse: collapse;
+        border-spacing: 20px;
+        padding: 0px 40px;
+        background-color: white;
+        display: block;
+       transition: 0.3s linear all;
+    }
+}
+
 @media only screen and (max-width: 991px){
     .assignmenttable-content{
         width: calc(100% - 260px);
@@ -130,4 +142,14 @@
     .assignmenttable-main{
         margin-top: 20px;
     }
+    .assignmenttable2{
+        overflow-x: scroll;
+        border-collapse: collapse;
+        border-spacing: 20px;
+        padding: 0px 20px;
+        background-color: white;
+        display: block;
+       transition: 0.3s linear all;
+    }
+   
 }
