@@ -38,6 +38,9 @@ figure{
 .sidebar-menu::-webkit-scrollbar{
   display: none;
 }
+.sidebar-menu2::-webkit-scrollbar{
+  display: none;
+}
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -69,7 +72,8 @@ figure{
    overflow-y: auto;
    z-index: 9;
    transition: all linear 0.3s;
-   transform: translateX(-94%);
+   transform: translateX(-74%);
+   
  
  }
 
@@ -96,6 +100,20 @@ height: 22.09px;
   border-bottom: 1px solid white;
   padding-bottom: 15px;
   position: relative;
+}
+.sidebar-logo-wrapper2{
+  padding-bottom: 15px;
+  position: relative;
+  
+}
+.sidebar-logo-wrapper2::-webkit-scrollbar{
+  display: none;
+}
+.responsive-sidebar::-webkit-scrollbar{
+  display: none;
+}
+.responsive-sidebar{
+  height: 100%;
 }
 .sidebar-logo{
   margin-top: 35px;
@@ -133,14 +151,16 @@ cursor: pointer;
   position: fixed;
   z-index: 7;
 }
-
+.invisible{
+  display: none;
+}
 .header-wrapper{
   width: calc(100% - 300px);
   padding: 20px 40px ;
   transition: all linear 0.3s;
 }
 .header-wrapper3{
-  width: calc(100% - 20px);
+  width: calc(100% - 70px);
   padding: 20px 40px ;
   transition: all linear 0.3s;
 }
@@ -303,6 +323,70 @@ cursor: pointer;
 .sidebar-cross-main{
   display: none;
 }
+.sidebar-logo2{
+  margin-top: 40px;
+  margin-right: 10px;
+  position: relative;
+  padding: 0px 25px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.dashboard-span{
+  width: 100%;
+  width: 30%;
+  background-color: white;
+  color: black;
+  transform: translateX(-50%) rotate(90deg);
+  position: absolute;
+  right:-40px;
+  top: 5px;
+  font-size: small;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+  z-index: 999;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.dashboard-span::before{
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  background-color: white;
+  width: 8px;
+  height: 8px;
+  transform:  rotate(45deg);
+  z-index: 9;
+}
+.icon{
+  z-index: 9999;
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  width: 25px;
+}
+.icon:hover + .dashboard-span{
+  background-color: rgb(18, 95, 228);
+  opacity: 1;
+  transform: translateX(0%) rotate(90deg);
+  transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+  width: 100%;
+  width: 30%;
+  padding: 2px 5px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  right:-40px;
+  top: 5px;
+  font-size: small;
+  font-weight: 600;
+  text-align: center;
+  z-index: 999;
+
+}
 @media screen and (max-width:999px){
  
   .login-logo{
@@ -344,6 +428,29 @@ cursor: pointer;
     z-index: 1;
    
   }
+  .icon:hover + .dashboard-span{
+    background-color: rgb(18, 95, 228);
+    opacity: 1;
+    transform: translateX(0%) rotate(90deg);
+    transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+    width: 100%;
+    width: 30%;
+    padding: 2px 5px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    right:-32px;
+    top: 0px;
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+    z-index: 999;
+  
+  }
+  .home-menu{
+    font-size: 18px;
+  }
+ 
 }
 @media screen and (max-width: 767px) {
   /* .sidebar-cross-main{
@@ -370,7 +477,7 @@ cursor: pointer;
    padding-right: 20px;
   }
   .header-wrapper3{
-    width: calc(100% - 20px);
+    width: calc(100% - 70px);
     padding: 20px 20px ;
     transition: all linear 0.3s;
   }
@@ -404,9 +511,12 @@ cursor: pointer;
     max-width: 70%;
    
   }
+  .profile-para{
+    font-size: 13px;
+  }
 @media screen and (max-width:420px){
   .header-para{
-    font-size: 16px;
+    font-size: 12px;
   }
   .login-logo{
     width: 30px;
@@ -437,11 +547,13 @@ cursor: pointer;
     max-width: 65%;
    
   }
+  .header-dropdown{
+    width: 100%;
+    max-width: 140%;
+    min-width:140% ;
+  }
 }
 @media screen and (max-width:320px){
-  .header-para{
-    font-size: 15px;
-  }
   .login-logo{
     width: 30px;
     height: 30px;

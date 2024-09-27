@@ -12,7 +12,7 @@
   transition: all linear 0.3s;
 }
 .vendor-assignment-content2{
-    width: calc(100% - 20px);
+    width: calc(100% - 70px);
     transition: all linear 0.3s;
    }
 .vendor-assignment-head{
@@ -171,5 +171,13 @@ min-width: 20%;
         max-width: 100%;
         min-width: 100%;
 
+    }
+    .label{
+        width: 100%;
+        max-width: 25%;
+        min-width: 25%;
+    }
+    .vendor-assignment-head{
+        font-size: 20px;
     }
 }

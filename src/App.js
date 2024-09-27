@@ -1,16 +1,16 @@
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 import MainLayout from './MainLayout/MainLayout';
-import Dashboard from './Dashboard/Dashboard';
-import Vendorstatus from './Vendorstatus/Vendorstatus';
-import Completeddeed from './Completeddeed/Completeddeed';
-import Ticket from './Ticket/Ticket';
-import Vendortable from './Vendortable/Vendortable';
-import Qctable from './Qctable/Qctable';
-import Vendorassignment from './Vendorassignment/Vendorassignment';
-import Assignmenttable from './Assignmenttable/Assignmenttable';
-import Invoicerequest from './Invoicerequest/Invoicerequest';
-import Payment from './Payment/Payment';
+import Dashboard from './View/Dashboard/Dashboard.jsx';
+import Vendorstatus from './View/Vendorstatus/Vendorstatus.jsx';
+import Completeddeed from './View/Completeddeed/Completeddeed.jsx';
+import Ticket from './View/Ticket/Ticket.jsx';
+import Vendortable from './View/Vendortable/Vendortable.jsx';
+import Qctable from './View/Qctable/Qctable.jsx';
+import Vendorassignment from './View/Vendorassignment/Vendorassignment.jsx';
+import Assignmenttable from './View/Assignmenttable/Assignmenttable.jsx';
+import Invoicerequest from './View/Invoicerequest/Invoicerequest.jsx';
+import Payment from './View/Payment/Payment.jsx';
 function App() {
   return (
    <>

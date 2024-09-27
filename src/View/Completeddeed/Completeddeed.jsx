@@ -1,8 +1,8 @@
 import React from 'react'
 import '../Vendorstatus/Vendorstatus.css'
-import edit from '../Images/edit 1.png'
-import trash from '../Images/trash-2 1.png'
-import dalil from '../Images/dalil.png'
+import edit from '../../Images/edit 1.png'
+import trash from '../../Images/trash-2 1.png'
+import dalil from '../../Images/dalil.png'
 import { useSelector } from 'react-redux'
 const Completeddeed = () => {
     const data = useSelector ((state)=>{

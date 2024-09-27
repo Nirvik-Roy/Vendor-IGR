@@ -12,7 +12,7 @@
     transition: all linear 0.3s;
 }
 .ticket-content2{
-    width: calc(100% - 20px);
+    width: calc(100% - 70px);
     transition: all linear 0.3s;
 }
 .ticket-tabs{
@@ -742,8 +742,38 @@ margin-right: 15px;
     margin-top: 40px;
     
 }
+.problem-solved-box{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
 }
 @media (max-width: 480px) {
+    .problem-div-main{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .problem-head-div{
+        width: 100%;
+        max-width: 50%;
+        min-width: 50%;
+    }
+    .solution-div{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .solution-head{
+        width: 100%;
+        max-width: 70%;
+        min-width: 70%;
+    }
+    .solution-head-main{
+        width: 100%;
+        max-width: 98%;
+        min-width: 98%;
+    }
     .problem-solved-box{
         width: 100%;
         max-width: 100%;
@@ -818,21 +848,19 @@ margin-right: 15px;
         width: 100%;
         max-width: 90%;
         min-width: 90%;
-        
-    }
+     }
     .solution-head-main{
-        width:90%;
-    }
-    .problem-div-main{
         width:100%;
-        max-width: 85%;
-        min-width: 85%;
-      
+        max-width: 90%;
+        min-width: 90%;
     }
+  
     .problem-head-div{
        
      
-        width: 50%;
+        width: 100%;
+        max-width: 60%;
+        max-width: 60%;
     
         
     }

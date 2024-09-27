@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react'
 import './Ticket.css'
-import dalil from '../Images/dalil.png'
-import down from '../Images/down.png'
+import dalil from '../../Images/dalil.png'
+import down from '../../Images/down.png'
 import { useSelector } from 'react-redux'
 const Ticket = () => {
-    const [toggle,setoggle]=useState(true)
+    const [toggle,setoggle]=useState(2)
     const [dropdown,setdropdown]=useState(false)
     const [images,setimages]=useState([])
     const inputref=useRef()
@@ -26,11 +26,11 @@ const Ticket = () => {
         <div className='ticket-wrapper'>
             <div className={data == true ? 'ticket-content2' : 'ticket-content' }>
                 <div className='ticket-tabs'>
-                    <button className={toggle==1 ? 'ticket-btn background':'ticket-btn'} onClick={(()=>setoggle(1))}>Create Ticket</button>
                     <button className={toggle==2 ? 'ticket-btn background':'ticket-btn'} onClick={(()=>setoggle(2))}>Running</button>
                     <button className={toggle==3 ? 'ticket-btn background':'ticket-btn'} onClick={(()=>setoggle(3))}>Closed</button>
                 </div>
-    {toggle==1 &&      <div>
+    {/* {toggle==1 &&      
+    <div>
                 <div className='vendors-name-filed-div'>
                     <p className='vendor-para'>Vendor Name</p>
                     <div className='vendor-input-div'>
@@ -101,7 +101,7 @@ const Ticket = () => {
                 <div className='submit-btn-div d-flex justify-content-center'>
                     <button className='submit-btn btn'>Submit</button>
                 </div>
-</div> }            
+</div> }             */}
            
            {toggle==2 &&      
             

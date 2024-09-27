@@ -1,7 +1,5 @@
 import React from 'react'
 import './Qctable.css'
-import edit from '../Images/edit 1.png'
-import trash from '../Images/trash-2 1.png'
 import { useSelector } from 'react-redux'
 const Qctable = () => {
     const data = useSelector ((state)=>{

@@ -13,7 +13,7 @@
   
 }
 .qc-table-content2{
-    width: calc(100% - 20px);
+    width: calc(100% - 70px);
     transition: 0.3s linear all;
 }
 .qc-heading{

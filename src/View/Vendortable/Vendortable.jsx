@@ -1,8 +1,7 @@
 import React from 'react'
 import './Vendortable.css'
-import edit from '../Images/edit 1.png'
-import trash from '../Images/trash-2 1.png'
-import dalil from '../Images/dalil.png'
+
+import dalil from '../../Images/dalil.png'
 import { useSelector } from 'react-redux'
 const Vendortable = () => {
     const data = useSelector ((state)=>{

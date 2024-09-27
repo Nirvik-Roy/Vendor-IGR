@@ -28,16 +28,18 @@ const Sidebar = () => {
         </div>
 </div>
 
-        <div className='sidebar-logo-wrapper d-flex justify-content-between'>
+        <div className={data == true ? 'sidebar-logo-wrapper2 d-flex justify-content-between': 'sidebar-logo-wrapper d-flex justify-content-between ' }>
         <i class="fa-solid fa-caret-left" onClick={(()=>sidebarfunc())}></i>
-        <div className='sidebar-logo'>
+        <div className= {data==true ? 'invisible' : 'sidebar-logo'}>
             <img src={sidebarlogo} className='sidebar-logo-img'></img>
            </div>
-           <div className='flag-div'>
+           <div className={data==true ? 'invisible' : 'flag-div' }>
             <img src={flag} className='flag-img'></img>
            </div>
         </div>
-           <div className='sidebar-menus-main'>
+
+
+           <div className={data==true ? 'invisible' : 'sidebar-menus-main'} >
             <div className='sidebar-icons-wrapper'>
                 <img className='sidebar-menus-icon' src={sidebarmenulogo}></img>
                 <p className='d-inline-block poppins-regular home-menu' onClick={(()=>navigate('/'))} >Dashboard</p>
@@ -61,6 +63,33 @@ const Sidebar = () => {
             </div>
          
            </div>
+          
+          <div className={data==false ? 'invisible' : 'responsive-sidebar'}>
+          <div className='sidebar-logo2' onClick={(()=>{navigate('/')})}>
+          <i class="fa-solid fa-chart-line icon"></i>
+          <span className='dashboard-span'>Dashboard</span>
+          </div>
+         
+
+          <div className='sidebar-logo2' onClick={(()=>{navigate('/ticket')})}>
+          <i class="fa-solid fa-ticket icon"></i>
+          <span className='dashboard-span'>Ticket</span>
+          </div>
+
+          <div className='sidebar-logo2' onClick={(()=>{navigate('/vendorassignment')})}>
+          <i class="fa-regular fa-note-sticky icon"></i>
+          <span className='dashboard-span'>Assignment</span>
+          </div>
+        
+          <div className='sidebar-logo2' onClick={(()=>{navigate('/invoicerequest')})}>
+          <i class="fa-solid fa-file-invoice icon" ></i>
+          <span className='dashboard-span'>Invoice</span>
+          </div>
+          <div className='sidebar-logo2' onClick={(()=>{navigate('/payment')})}>
+          <i class="fa-regular fa-credit-card icon"></i>
+          <span className='dashboard-span'>Payment</span>
+          </div>
+</div>
         </div>
       </div>
       </section>

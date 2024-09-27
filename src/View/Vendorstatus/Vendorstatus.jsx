@@ -1,7 +1,7 @@
 import React from 'react'
 import './Vendorstatus.css'
-import edit from '../Images/edit 1.png'
-import trash from '../Images/trash-2 1.png'
+import edit from '../../Images/edit 1.png'
+import trash from '../../Images/trash-2 1.png'
 import { useSelector } from 'react-redux'
 const Vendorstatus = () => {
     const data = useSelector ((state)=>{
