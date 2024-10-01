@@ -97,7 +97,17 @@
     
     
 }
-
+@media only screen and (max-width: 1399px){
+    .assignmenttable2{
+        overflow-x: scroll;
+        border-collapse: collapse;
+        border-spacing: 20px;
+        padding: 0px 100px;
+        background-color: white;
+        display: block;
+       transition: 0.3s linear all;
+    }
+}
 @media only screen and (max-width: 1199px){
     .assignmenttable2{
         overflow-x: scroll;

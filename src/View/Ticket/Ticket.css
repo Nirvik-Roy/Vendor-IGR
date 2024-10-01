@@ -525,6 +525,52 @@ margin-right: 15px;
     font-family: Poppins;
     font-size: 30px;
 }
+.problem-input-wrapper-div{
+    width: 100%;
+    max-width: 45%;
+    min-width: 45%;
+   margin-top: 20px;
+}
+.problem-solution-input{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(169, 169, 169);
+    height: 50px;
+    border-radius: 7px;
+    padding: 0px 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+}
+.problem-solution-input:focus{
+    outline: none;
+}
+.wrapper-problem-solution{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+.send-button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    font-family: Poppins;
+    color: white;
+    background-color: #1147bd;
+    border-radius: 7px;
+}
+.all-ticket-running-section-wrapper{
+    height: 64vh;
+    overflow-y: scroll;
+}
+.all-ticket-running-section-wrapper::-webkit-scrollbar{
+    display: none;
+}
 @media (max-width: 1399px) {
     .vendors-name-filed-div{
         width: 100%;
@@ -614,8 +660,8 @@ margin-right: 15px;
     }
     .problem-div-main{
         width:100%;
-        max-width: 80%;
-        min-width: 80%;
+        max-width: 100%;
+        min-width: 100%;
       
     }
     .problem-head-div{
@@ -708,6 +754,12 @@ margin-right: 15px;
         min-width: 82.2%;
         margin-top: 40px;
         
+    }
+    .problem-input-wrapper-div{
+        width: 100%;
+        max-width: 75%;
+        min-width: 75%;
+       margin-top: 20px;
     }
 }
 @media (max-width: 576px) {
@@ -844,16 +896,7 @@ margin-right: 15px;
         font-size: 12px;
         
      }
-     .solution-div{
-        width: 100%;
-        max-width: 90%;
-        min-width: 90%;
-     }
-    .solution-head-main{
-        width:100%;
-        max-width: 90%;
-        min-width: 90%;
-    }
+     
   
     .problem-head-div{
        

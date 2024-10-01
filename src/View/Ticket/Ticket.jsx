@@ -29,79 +29,7 @@ const Ticket = () => {
                     <button className={toggle==2 ? 'ticket-btn background':'ticket-btn'} onClick={(()=>setoggle(2))}>Running</button>
                     <button className={toggle==3 ? 'ticket-btn background':'ticket-btn'} onClick={(()=>setoggle(3))}>Closed</button>
                 </div>
-    {/* {toggle==1 &&      
-    <div>
-                <div className='vendors-name-filed-div'>
-                    <p className='vendor-para'>Vendor Name</p>
-                    <div className='vendor-input-div'>
-                    <input className='vendor-filed' type='text' placeholder='Vendor Name' />
-                    </div>
-                 
-                </div>
-
-               <div className='vendor-problem-dropdown-filed'>
-                <p className='dropdown-problem-para'>Select Problem</p>
-                <div className='problem-dropdown-input'>
-                    <input onClick={(()=>setdropdown(!dropdown))} className='problem-input' placeholder='Evidence Problem'></input>
-                    <img onClick={(()=>setdropdown(!dropdown))} src={down}></img>
-    {dropdown &&        <div className='problem-dropdown'>
-                        <p className='problem-para'>Evidence Problem</p>
-                        <p className='problem-para'>Data Entry Problem</p>
-                        
-                    </div>}          
-                </div>
-               </div>
-
-                <div className='vendors-name-filed-div'>
-                    <p className='vendor-para'>Problem</p>
-                    <div className='vendor-input-div'>
-                    <textarea className='vendor-filed2' type='text' placeholder='Your Problems' />
-                    </div>
-                 
-                </div>
-
-                <div className='image-upload-head'>
-                    <p className='image-upload-para'>Image Upload</p>
-                    <div className='plus-btn-div'>
-                    <button className='plus-btn btn'>+</button>
-                    <input ref={inputref} onChange={((e)=>getimages(e))} multiple className='file' type='file'></input>
-                    </div>
-                   
-                </div>
-                <div className='image-upload-wrapper'>
-            {images.map((element,index)=>{
-               return(
-                <div className='image-upload-div ' key={index}>
-                        <div className='image-cross-div'>
-                             <i onClick={(()=>handleDelete(index))} class="fa-regular fa-circle-xmark circle-cross-icon"></i>
-                        </div>
-                         <div className='d-flex justify-content-center'>
-                        <div className='image-display-div'>
-                           <img key={index} src={URL.createObjectURL(element)}></img>
-                        </div>
-                        
-</div>
-<div  key={index} className='image-number-btn d-flex justify-content-center'>
-                            <button  key={index} className='image-number-btn-text'>{index + 1}</button>
-                        </div>
-                    </div>
-               )
-                    
-               
-            })}
-                   
-            
-              
-               
-                 
-                 
-                  
-                </div>
-
-                <div className='submit-btn-div d-flex justify-content-center'>
-                    <button className='submit-btn btn'>Submit</button>
-                </div>
-</div> }             */}
+   
            
            {toggle==2 &&      
             
@@ -110,8 +38,8 @@ const Ticket = () => {
 
          
 
-           
-
+           <div>
+            <div className='all-ticket-running-section-wrapper'>
            <div className='problem-solution-main'>
            <div className='problem-head-div'>
                 <p className='problem-head-para'>The Problem</p>
@@ -144,7 +72,6 @@ const Ticket = () => {
             </div>
 
            </div>
-
            <div className='problem-solution-main'>
            <div className='problem-head-div'>
                 <p className='problem-head-para'>The Problem</p>
@@ -177,7 +104,6 @@ const Ticket = () => {
             </div>
 
            </div>
-
            <div className='problem-solution-main'>
            <div className='problem-head-div'>
                 <p className='problem-head-para'>The Problem</p>
@@ -210,7 +136,16 @@ const Ticket = () => {
             </div>
 
            </div>
-          
+           </div>
+           <div className='problem-solution-input-box-div'>
+           <div className='wrapper-problem-solution'>
+           <div className='problem-input-wrapper-div'>
+           <input className='problem-solution-input' placeholder='Add your problem'></input>
+           </div>
+           <button className='send-button'><i class="fa-solid fa-paper-plane"></i></button>
+           </div>
+           </div>
+           </div> 
 
            </>  }
 

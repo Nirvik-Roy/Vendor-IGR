@@ -15,7 +15,7 @@ const Vendortable = () => {
                 <div>
                     <h2 className='vendor-details-head'>Vendor Details</h2>
                     <div className='vendor-table-wrapper'>
-                        <table className='vendor-table-main'>
+                        <table className={data==true ?  'vendor-table-main2' : 'vendor-table-main'}>
                             <thead>
                                 <tr>
                                     <th className='vendor-table-head'>No</th>

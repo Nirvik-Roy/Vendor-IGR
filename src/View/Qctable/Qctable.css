@@ -40,7 +40,7 @@
     overflow-x: scroll;
     border-collapse: collapse;
     border-spacing: 20px;
-    padding: 0px 200px;
+    padding: 0px 220px;
     background-color: white;
     transition: 0.3s all linear;
 }
@@ -78,7 +78,17 @@
     word-wrap: break-word;
     word-break: break-all;
 }
-
+@media screen and (max-width: 1399px) {
+    .qc-table2{
+        display: block;
+        overflow-x: scroll;
+        border-collapse: collapse;
+        border-spacing: 20px;
+        padding: 0px 100px;
+        background-color: white;
+        
+    }
+}
 @media screen and (max-width: 1199px) {
     .qc-table2{
         display: block;
@@ -87,7 +97,7 @@
         border-spacing: 20px;
         padding: 0px 60px;
         background-color: white;
-        transition: 0.3s all linear;
+        
     }
 }
 @media screen and (max-width: 991px) {
