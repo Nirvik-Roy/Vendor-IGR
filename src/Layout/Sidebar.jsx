@@ -61,6 +61,11 @@ const Sidebar = () => {
                 <img className='sidebar-menus-icon' src={sidebarmenulogo}></img>
                 <p className='d-inline-block poppins-regular home-menu' onClick={(()=>navigate('/payment'))}>Payment Complete</p>
             </div>
+
+            <div className='sidebar-icons-wrapper'>
+                <img className='sidebar-menus-icon' src={sidebarmenulogo}></img>
+                <p className='d-inline-block poppins-regular home-menu' onClick={(()=>navigate('/qcscreen'))}>Qc Screen</p>
+            </div>
          
            </div>
           
@@ -89,6 +94,13 @@ const Sidebar = () => {
           <i class="fa-regular fa-credit-card icon"></i>
           <span className='dashboard-span'>Payment</span>
           </div>
+
+
+          <div className='sidebar-logo2' onClick={(()=>{navigate('/qcscreen')})}>
+          <i class="fa-brands fa-wpforms icon"></i>
+          <span className='dashboard-span'>Qc Screen</span>
+          </div>
+        
 </div>
         </div>
       </div>

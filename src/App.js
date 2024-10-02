@@ -11,6 +11,8 @@ import Vendorassignment from './View/Vendorassignment/Vendorassignment.jsx';
 import Assignmenttable from './View/Assignmenttable/Assignmenttable.jsx';
 import Invoicerequest from './View/Invoicerequest/Invoicerequest.jsx';
 import Payment from './View/Payment/Payment.jsx';
+import Qcscreen from './Qcscreen/Qcscreen.jsx';
+import Qcscreentable from './Qctable/Qcscreentable.jsx';
 function App() {
   return (
    <>
@@ -27,6 +29,8 @@ function App() {
         <Route path='/assignmenttable' element={<Assignmenttable/>}></Route>
         <Route path='/invoicerequest' element={<Invoicerequest/>}></Route>
         <Route path='/payment' element={<Payment/>}></Route>
+        <Route path='/qcscreen' element={<Qcscreen/>}></Route>
+        <Route path='/qcscreentable' element={<Qcscreentable/>}></Route>
       </Route>
     </Routes>
    </BrowserRouter>
